@@ -5,11 +5,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: gh900webapp-rg
+  RESOURCE-GROUP: gh200liverg
   LOCATION: eastus2
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 498ab842-278f-45f8-ac5c-dc89061565cd
-  WEBAPP-NAME: gh900webapp9939
+  WEBAPP-NAME: gh20010112
 
 
 jobs:
