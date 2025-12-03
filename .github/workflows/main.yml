@@ -45,7 +45,7 @@ jobs:
 
       # upload the published website code artifacts
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: loadTestResults
           path: ${{github.workspace}}/loadTest
